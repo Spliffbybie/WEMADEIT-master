@@ -1,0 +1,197 @@
+/* CSS Document */
+
+html, body, {
+	height: 100%;
+	font:Tahoma, Geneva, sans-serif;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+	
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+}
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+.table {
+	border-left:#fc0278, solid;
+	border-right:#fc0278, solid;
+	width: 80%;
+	}
+
+.tr { 
+    border-bottom: solid, #fc0278;
+	}
+
+.heading {
+	background: #fc0278;
+	color: #fff;
+	text-align: center;
+	}
+
+	
+#tab {
+  border: solid 3px #fc0278;
+ 
+     }	
+#tr{
+   border-bottom: solid 3px  #FCDCEE;
+}   	
+
+#container {
+min-height: 100%;
+margin-bottom: -330px;
+position: relative;
+margin: 0 auto;
+}
+
+#header {
+	width:100%;
+	height: 100px;
+	background:#4E4E4E;
+}
+.logo { margin-top:40px;
+        padding:5px;
+}
+
+.menu-container
+{
+	margin:10px auto;
+	height:40px;
+	background:#fc0278;
+	display:block;
+}
+
+ul.menu
+{
+	margin:5px;
+	list-style:none;
+}
+
+ul.menu li
+{
+	float:left;
+	background:#fc0278;
+	color:#fff;
+}
+
+ul.menu li a
+{
+	display:block;
+	padding:5px;
+	text-decoration:none;
+	color:#fff;
+	font-size:16px;
+}
+
+ul.menu li a:hover,ul.menu li a:active,ul.menu li a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: underline;
+	font-size:1.2em;
+	color:#b20155;
+}
+			  
+#content {
+	width: 600px;
+	padding: 10px 0;
+	position:relative;
+	}
+	
+#cat-container
+{
+	margin:10px auto;
+	height:100%;
+	width:90%;
+	padding:5px;
+}
+
+#product-cont
+{
+	margin:10px 0 0 20px;
+	width:30%;
+	height:180px;
+	float:left;
+	
+	background:url(../images/fillproduct.png);
+}	
+/*border:solid 1px black;*/
+.thumb {
+	margin-top: 10px;
+	margin-left: 55px;
+	}
+
+#pro_nam {
+	color:fa5ea8;
+	padding-left: 50px;
+	     }
+	 
+#pro_price{
+	color: #fff;
+	display:block;
+	background:url(../images/buttons/price.png) no-repeat;
+	width: 80px;
+	height: 27px;
+	padding-left: 15px;
+	padding-top: 5px;
+	margin-left: 70px;
+	}	
+	 
+.product_space
+{
+	margin:10px 0 0 20px;
+	width:20%;
+	height:180px;
+	float:left;
+	
+}	
+
+.products{
+	margin:10px auto;
+	width:60%;
+	height:400px;
+	margin-left:20%;
+	margin-right:20%;
+	
+}	
+	
+.cat h2 {
+	background:#fc0278;
+	font:Arial;
+	color:#fff;
+}
+
+
+.clearfooter {
+height: 50px;
+clear: both;
+}
+
+
+#footer {
+height: 80px;
+position: relative;
+background:#fc0278;
+}
+
+#footer-container
+{
+	margin:10px 0 0 20px;
+	width:30%;
+	height:180px;
+	float:right;
+	border:solid 1px black;
+}	
+

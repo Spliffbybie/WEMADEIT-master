@@ -1,0 +1,4 @@
+KEPT; 2;
+KIN; 2,25,6;
+KIND; 2;
+KNOWING; 2;

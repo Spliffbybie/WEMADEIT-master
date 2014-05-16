@@ -1,0 +1,92 @@
+﻿.pop_title
+{
+background:#dadada; 
+width:100%; 
+height:20px; 
+border-bottom:1px solid #cccccc; 
+font-size:14px; 
+font-weight:bold; 
+text-align:center;
+padding-top:0px;
+}
+.pop_txt
+{
+
+background:url(images/text_bg.gif) repeat-x;
+border:1px solid #ccc;
+}
+.pop_but
+{
+background:url(images/log_in.gif);
+width:60px;
+height:25px;
+text-align:center;
+border:1px solid #666;
+}
+.registerfrm{font-size:13px; color: maroon;}
+.capps{visibility:hidden; color: green;}
+
+.tablefield{
+font-family: Monaco, Verdana, Sans-serif; 
+font-size: 12px;
+background-color: #f9f9f9;
+border: 1px solid #D0D0D0;
+color: #002166;
+width:85%
+}
+.innertable{
+font-family: Monaco, Verdana, Sans-serif; 
+font-size: 12px;
+background-color: #f9f9f9;
+color: #002166;
+width:80%
+}
+.spn
+{
+ color:red;
+ 
+}
+.style1 {
+	border-width: 0px;
+}
+.style2 {
+	font-size: x-large;
+}
+.style3 {
+	font-size: medium;
+}
+.style4 {
+	text-decoration: none;
+}
+.style5 {
+	font-family: Monaco, Verdana, Sans-serif;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	color: #002166;
+	width: 80%;
+	margin-right: 0px;
+}
+.style6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style8 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: small;
+	text-decoration: underline;
+}
+.style11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-decoration: underline;
+}
+.style13 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+.style14 {
+	font-size: large;
+}
+.style15 {
+	text-align: left;
+}

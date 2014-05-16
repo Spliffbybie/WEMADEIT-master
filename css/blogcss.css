@@ -1,0 +1,255 @@
+/* CSS Document */
+
+html, body, {
+	height: 100%;
+	font: Arial, Helvetica, sans-serif;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+    text-align: center;         /* make sure IE centers the page too */
+}
+	
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+} 
+  border
+/*Begin emusic header */
+
+#container {
+min-height: 100%;
+margin-bottom: -330px;
+position: relative;
+margin: 0 auto;
+}
+#header {
+	width:100%;
+	height: 100px;
+	background:#4E4E4E;
+}
+
+.logo { margin-top:40px;
+        padding:5px;
+}
+
+.menu-container
+{
+	margin:10px auto;
+	height:40px;
+	background:#fc0278;
+	display:block;
+}
+
+ul.menu
+{
+	margin:5px;
+	list-style:none;
+}
+
+ul.menu li
+{
+	float:left;
+	color:#fff;
+	font-size:16px;
+}
+
+ul.menu li a
+{
+	display:block;
+	padding:5px;
+	text-decoration:none;
+	color:#fff;
+}
+
+ul.menu li a:hover,ul.menu li a:active,ul.menu li a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: underline;
+	font-size:1.2em;
+}
+			  
+
+	
+#cat-container
+{
+	margin:10px auto;
+	height:100%;
+	width:90%;
+	padding:5px;
+}
+
+/*end music header */ 
+  
+  
+  
+#wrapper {
+	width:70%;  
+    margin: 0 auto; 
+	      /* center the page */  
+}  
+  
+#content {  
+    background-color: #fff; 
+	border: 1px solid #000;     
+    float: left;  
+    font-family: Arial;  
+    padding: 20px 30px;  
+    text-align: left;  
+    width: 80%;
+              /* fill up the entire div */  
+}  
+ 
+ /*menu nav*/
+#nav {
+	padding:0;
+	background:#4E4E4E;
+}
+
+#nav li {
+    display:inline;	
+}
+
+#nav li a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	float:left;
+	padding:10px;
+	background-color: #333333;
+	color:#fff;
+	border-bottom:1px;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+}
+
+#nav li a:hover{
+	background-color:#981c26;
+	padding-bottom:12px;
+	border-bottom:2px;
+	border-bottom-color:#000000;
+	border_bottoom-style: solid;
+	margin:-1px;
+}
+
+
+
+
+/*menu blog*/
+
+  
+#menu {  
+    float: left;  
+	
+    border-bottom: none;        /* avoid a double border */  
+    clear: both;                /* clear:both makes sure the content div doesn't float next to this one but stays under it */  
+    width:100%;  
+    height:20px;  
+    padding: 0 30px;  
+    background-color: #FFF;  
+    text-align: left;  
+    font-size: 85%;  
+}  
+  
+#menu a:hover {  
+    background-color: #009FC1;  
+}  
+  
+#userbar {  
+    background-color: #fff;  
+    float: right;  
+    width: 50%; 
+	margin-right:-5px; 
+}  
+  
+#footer {  
+    clear: both;  
+}  
+  
+/* begin table styles */  
+table {  
+    border-collapse: collapse;  
+    width: 100%;  
+}  
+  
+table a {  
+    color: #000;  
+}  
+  
+table a:hover {  
+    color:#373737;  
+    text-decoration: none;  
+}  
+  
+th {  
+    background-color: #B40E1F;  
+    color: #F0F0F0;  
+}  
+  
+td {  
+    padding: 5px;  
+}  
+  
+/* Begin font styles */  
+h1, #footer {  
+    font-family: Arial;  
+    color: #fc0278;  
+}  
+  
+h3 {margin: 0; padding: 0;}  
+  
+/* Menu styles */  
+.item {  
+    background-color: #00728B;  
+    color: #FFF; 
+	border: 1px solid #032472; 
+    font-family: Arial;  
+    padding: 3px;  
+    text-decoration: none;  
+}  
+  
+.leftpart {  
+    width: 70%;  
+}  
+  
+.rightpart {  
+    width: 30%;  
+}  
+  
+.small {  
+    font-size: 75%;  
+    color: #373737;  
+}  
+#footer {  
+    font-size: 65%;  
+    padding: 3px 0 0 0;  
+} 
+
+
+
+.footer {
+height: 80px;
+position: relative;
+background:#fc0278;
+clear:both;
+}
+
+.footer-container
+{
+	margin:10px 0 0 20px;
+	width:10%;
+	height:100px;
+	float:right;
+	border:solid 1px black;
+}	
+  */
+.topic-post {  
+    height: 100px;  
+    overflow: auto;  
+}  
+  
+.post-content {  
+    padding: 30px;  
+}  
+  
+textarea {  
+    width: 500px;  
+    height: 200px;  
+}  
+      

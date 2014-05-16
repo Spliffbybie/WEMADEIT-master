@@ -1,0 +1,18 @@
+﻿fieldset {
+  width: 350px;
+}
+
+.textInput,textarea {
+  width: 200px;
+  font-family: arial;
+  background-color: #FFFFFF;
+  border: 1px solid #000;
+}
+
+.inputHighlighted {
+  width: 200px;
+  background-color: #FFCE31;
+  color: #000;
+  border: 1px solid #000;
+}
+
